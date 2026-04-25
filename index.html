@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACCESS DENIED</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #00ff9f;
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid #00ff9f;
+    padding: 30px;
+    box-shadow: 0 0 20px #00ff9f;
+    animation: flicker 1.5s infinite;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.warning {
+    color: red;
+}
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>⚠️ FILE ACCESS DENIED</h1>
+    <p>This content is restricted.</p>
+    <br>
+    <p>User: UNKNOWN</p>
+    <p>Status: Watching...</p>
+    <br>
+    <p class="warning">Proceed at your own risk ↓</p>
+</div>
+
+</body>
+</html> 
